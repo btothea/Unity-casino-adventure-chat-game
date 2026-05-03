@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5c235f1d686b2489c42e8cee584f97, type: 3}
+  m_Name: Ending_BigWinner
+  m_EditorClassIdentifier: 
+  endingName: Big Winner
+  condition: moneyAmount >= 200 AND tookRisk == true
+  endingText: The player beats the final table and escapes the casino rich, but the
+    sound of cards shuffling follows them into the night.

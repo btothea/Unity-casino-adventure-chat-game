@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a811fb026de05418bd7fd81c1cf5b8, type: 3}
+  m_Name: Room_BackOffice
+  m_EditorClassIdentifier: 
+  roomName: Back Office
+  description: A dim office hidden away from the casino floor. Papers, monitors,
+    and locked drawers reveal that the casino may not be playing fair.
+  connections:
+  - "East \u2192 Main Casino Floor"
+  npcsInRoom:
+  - {fileID: 11400000, guid: a58f0774d6bfe304a850f29b142950c3, type: 2}
+  itemsInRoom:
+  - {fileID: 11400000, guid: 9beb13392ca84ba4bb563d23a6e5bbaf, type: 2}

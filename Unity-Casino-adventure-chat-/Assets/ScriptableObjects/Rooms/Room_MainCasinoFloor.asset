@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a811fb026de05418bd7fd81c1cf5b8, type: 3}
+  m_Name: Room_MainCasinoFloor
+  m_EditorClassIdentifier: 
+  roomName: 'Main Casino Floor
+
+'
+  description: 'A bright, loud casino floor filled with gamblers, machines, and tables.
+    This is the heart of the casino where the player meets the Dealer and starts
+    their first gamble.
+
+'
+  connections:
+  - "South \u2192 Entrance Lobby"
+  - "East \u2192 VIP Room"
+  - "West \u2192 Back Office"
+  - "North \u2192 High Roller Table"
+  npcsInRoom:
+  - {fileID: 11400000, guid: dce50a8ec398b014ba12dc696fb28573, type: 2}
+  - {fileID: 11400000, guid: e077935adad517748b57d2a13888f1ae, type: 2}
+  itemsInRoom:
+  - {fileID: 11400000, guid: eba7840b8135b404db674cda35056495, type: 2}

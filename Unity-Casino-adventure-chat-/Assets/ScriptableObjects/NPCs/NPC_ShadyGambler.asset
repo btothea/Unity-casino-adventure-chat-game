@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a08e1012d11724abb669ecd6e0a1f9, type: 3}
+  m_Name: NPC_ShadyGambler
+  m_EditorClassIdentifier: 
+  npcName: Shady Gambler
+  role: Secret informant
+  purpose: Reveals that the casino is rigged and gives the player a path toward the
+    secret ending.
+  relatedQuest: {fileID: 11400000, guid: 5dc7401825878df4c8e97c0907cc7d88, type: 2}
+  dialogue: {fileID: 11400000, guid: ff5ad86b4e669ef4cb49be200853b657, type: 2}

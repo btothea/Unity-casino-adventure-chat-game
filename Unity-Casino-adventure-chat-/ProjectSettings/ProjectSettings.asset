@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 2cb5f5f0a98a3474f9c941d877e3a696
+  productGUID: e8df81a2db6d6b6478a3cbe105b16bd5
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Unity-Casino-adventure-chat-
+  productName: making a simple save system
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -599,14 +599,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Unity-Casino-adventure-chat-
+  metroPackageName: making a simple save system
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Unity-Casino-adventure-chat-
+  metroApplicationDescription: making a simple save system
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -677,10 +677,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: b1c3ef7c-007d-4bf6-ac07-2a2c3d1cf4a8
+  cloudProjectId: c869e355-b706-4e81-b2ca-84864727a2ad
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Unity-Casino-adventure-chat-
+  projectName: making a simple save system
   organizationId: btothea
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

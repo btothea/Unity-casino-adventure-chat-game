@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998c549ea8c132047bb904df2f2f9725, type: 3}
+  m_Name: Dialogue_Host
+  m_EditorClassIdentifier: 
+  dialogueName: Host
+  fullDialogueTree: "Host Start:\n\"Welcome to Fate's Hand Casino. Here, fortune
+    favors the bold, but the house remembers every choice.\"\n\nPlayer Choice 1:\n1.
+    \"What are the rules?\"\n   Host: \"Simple. Play, win, and you may leave. Lose
+    it all, and you belong to us.\"\n   End State: Return to Entrance Lobby\n\n2.
+    \"Why am I here?\"\n   Host: \"Everyone comes here wanting something. Money,
+    power, a second chance. The question is what you are willing to lose for it.\"\n  
+    End State: Return to Entrance Lobby\n\n3. \"I'm ready.\"\n   Host: \"Then step
+    onto the floor. The first table is waiting.\"\n   End State: Unlock path to Main
+    Casino Floor"

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998c549ea8c132047bb904df2f2f9725, type: 3}
+  m_Name: Dialogue_Gatekeeper
+  m_EditorClassIdentifier: 
+  dialogueName: VIP Gatekeeper
+  fullDialogueTree: "Gatekeeper Start:\n\"VIPs only. No exceptions.\"\n\nPlayer Choice
+    1:\n1. \"Let me in.\"\n   - Go to VIP Token Check\n\n2. \"What do I need?\"\n  
+    - Gatekeeper: \"Proof that the house has noticed you. A VIP Token, enough money,
+    or someone important speaking for you.\"\n   - Go to VIP Token Check\n\nVIP Token
+    Check:\nCondition: hasVIPToken == false\nGatekeeper: \"Earn your place. Come
+    back when you are worth something.\"\n- End State: Return to Main Casino Floor\n\nCondition:
+    hasVIPToken == true AND knowsSecret == false\nGatekeeper: \"...You may enter.\"\n-
+    End State: Unlock VIP Room\n\nCondition: hasVIPToken == true AND knowsSecret
+    == true\nGatekeeper: \"You should not be here... but the token is real. Go in,
+    and watch your back.\"\n- End State: Unlock VIP Room with warning dialogue"

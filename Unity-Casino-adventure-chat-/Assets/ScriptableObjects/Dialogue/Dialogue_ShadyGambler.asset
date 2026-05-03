@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998c549ea8c132047bb904df2f2f9725, type: 3}
+  m_Name: Dialogue_ShadyGambler
+  m_EditorClassIdentifier: 
+  dialogueName: Shady Gambler
+  fullDialogueTree: "Gambler Start:\n\"You look new. This place is not what you think
+    it is.\"\n\nPlayer Choice 1:\n1. \"What do you mean?\"\n   - Go to Reveal Node\n\n2.
+    \"I'm not interested.\"\n   - Gambler: \"That is what everyone says before the
+    house takes everything.\"\n   - End State: End conversation\n\nReveal Node:\nGambler:
+    \"The house always wins... unless you break the rules.\"\n\nPlayer Choice 2:\n1.
+    \"Help me understand.\"\n   - Set knowsSecret = true\n   - Gambler: \"The games
+    are not random. They are watching what you are willing to lose.\"\n   - Go to
+    Help Choice\n\n2. \"Sounds crazy.\"\n   - Gambler: \"Crazy is thinking you can
+    beat a rigged table by playing fair.\"\n   - End State: Return to Main Casino
+    Floor\n\nHelp Choice:\nGambler: \"I can show you the way out, but I need you
+    to trust me.\"\n\nPlayer Choice 3:\n1. \"I'll help you.\"\n   - Set helpedGambler
+    = true\n   - Set hasVIPToken = true\n   - Gambler: \"Good. Take this token. The
+    VIP Room is not a reward. It is where the truth is hidden.\"\n   - End State:
+    Secret ending path unlocked\n\n2. \"I'm on my own.\"\n   - Gambler: \"Then you
+    will lose like the rest of us.\"\n   - End State: Secret path locked\n\nSpecial
+    Dialogue:\nCondition: moneyAmount <= 0\nGambler: \"Looks like they took everything
+    from you, didn't they?\"\n- End State: Gives player one final chance to help"

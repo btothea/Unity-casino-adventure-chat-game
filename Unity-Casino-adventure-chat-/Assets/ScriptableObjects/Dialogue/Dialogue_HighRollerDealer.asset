@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998c549ea8c132047bb904df2f2f9725, type: 3}
+  m_Name: Dialogue_HighRollerDealer
+  m_EditorClassIdentifier: 
+  dialogueName: High Roller Dealer
+  fullDialogueTree: "Start:\n\"This is it. One final game. Everything you have...
+    or nothing at all.\"\n\nPlayer Choice 1:\n1. \"Bet everything.\"\n   - Set tookRisk
+    = true\n   - Go to Ending Check\n\n2. \"Walk away.\"\n   - Go to Ending Check\n\nEnding
+    Check:\nCondition: knowsSecret == true AND helpedGambler == true\nEnding: Escape
+    the System\n\nCondition: moneyAmount <= 0\nEnding: Lost Everything\n\nCondition:
+    moneyAmount >= 200 AND tookRisk == true\nEnding: Big Winner\n\nFallback Condition:\nEnding:
+    Walk Away Empty\nOptional if you want a fourth ending."
