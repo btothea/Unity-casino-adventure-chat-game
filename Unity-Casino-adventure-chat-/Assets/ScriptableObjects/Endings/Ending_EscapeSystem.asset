@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Ending_EscapeSystem
   m_EditorClassIdentifier: 
   endingName: Escape System
-  condition: knowsSecret == true AND helpedGambler == true
-  endingText: The player breaks the casino's control from the inside and escapes
-    with the truth instead of the money.
+  condition: moneyAmount >= 500 AND knowsSecret == true AND helpedGambler == true
+    AND hasGoldenCard == true AND hasHouseLedger == true
+  endingText: The player exposes the casino's control, breaks the system from the
+    inside, and escapes with both the truth and the money.

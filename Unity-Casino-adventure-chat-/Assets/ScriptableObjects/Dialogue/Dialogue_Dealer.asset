@@ -13,27 +13,84 @@ MonoBehaviour:
   m_Name: Dialogue_Dealer
   m_EditorClassIdentifier: 
   dialogueName: Dealer
-  fullDialogueTree: "Dealer Start:\n\"First time in the casino? Everyone starts with
-    a choice... play it safe, or risk it all.\"\n\nPlayer Choice 1:\n1. \"I'll play.\"\n  
-    - Set tookRisk = true\n   - Go to Bet Intro\n\n2. \"I'll just look around.\"\n  
-    - Set tookRisk = false\n   - Dealer: \"No one just looks. The tables always call
-    people back.\"\n   - End State: Return to Main Casino Floor\n\nBet Intro:\nDealer:
-    \"Let us start small. A safe bet keeps you alive, but a big bet gets you noticed.\"\n\nPlayer
-    Choice 2:\n1. \"Safe bet.\"\n   - Set moneyAmount += 20\n   - Set firstBetComplete
-    = true\n   - Dealer: \"Careful won't make you rich, but it keeps you standing.\"\n  
-    - Go to Post Bet\n\n2. \"Big bet.\"\n   - Set moneyAmount += 100\n   - Set tookRisk
-    = true\n   - Set firstBetComplete = true\n   - Dealer: \"Now that is a gamble.
-    The house likes courage.\"\n   - Go to Post Bet\n\nPost Bet:\nDealer: \"You have
-    a feel for it now. So what comes next?\"\n\nPlayer Choice 3:\n1. \"Play again.\"\n  
-    - Go to High Risk Bet\n\n2. \"Walk away.\"\n   - Dealer: \"Walking away is the
-    hardest move in this place.\"\n   - End State: Return to Main Casino Floor\n\nHigh
-    Risk Bet:\nDealer: \"Final round. Bigger stakes.\"\n\nPlayer Choice 4:\n1. \"All
-    in.\"\n   - Set tookRisk = true\n   - Set moneyAmount += 200\n   - Dealer: \"You
-    either leave a legend or leave with nothing.\"\n   - Go to VIP Check\n\n2. \"Half
-    bet.\"\n   - Set moneyAmount += 50\n   - Dealer: \"Still cautious. Interesting.\"\n  
-    - Go to VIP Check\n\nVIP Check:\nCondition: If moneyAmount >= 200\nDealer: \"You
-    are ready for VIP.\"\n- Set hasVIPToken = true\n- End State: VIP Token unlocked\n\nCondition:
-    If moneyAmount < 200\nDealer: \"Come back when you are worth something.\"\n-
-    End State: Return to Main Casino Floor\n\nSecret Check:\nCondition: If knowsSecret
-    == true\nDealer: \"You have been asking questions... dangerous ones.\"\n- End
-    State: Dialogue changes tone only"
+  fullDialogueTree: 'Dealer Start:
+
+    Dealer: First time in the casino? Everyone
+    starts with a choice... play it safe, or risk it all.
+
+    
+
+    First Bet:
+
+    Dealer:
+    Let us start small. A safe bet keeps you alive, but a big bet gets you noticed.
+
+    
+
+    Safe
+    Bet Win:
+
+    Dealer: Careful will not make you rich, but it keeps you standing.
+
+    
+
+    Big
+    Bet Win:
+
+    Dealer: Now that is a gamble. The house likes courage.
+
+    
+
+    Post
+    Bet:
+
+    Dealer: You have a feel for it now. So what comes next?
+
+    
+
+    High
+    Risk Bet:
+
+    Dealer: Final round. Bigger stakes.
+
+    
+
+    All In:
+
+    Dealer:
+    You either leave a legend or leave with nothing.
+
+    
+
+    Half Bet:
+
+    Dealer:
+    Still cautious. Interesting.
+
+    
+
+    VIP Success:
+
+    Dealer: You are
+    ready for VIP. Take this token.
+
+    
+
+    VIP Fail:
+
+    Dealer: Come back
+    when you are worth something.
+
+    
+
+    Secret Warning:
+
+    Dealer: You
+    have been asking questions... dangerous ones.
+
+    
+
+    Walk Away:
+
+    Dealer:
+    Walking away is the hardest move in this place.'

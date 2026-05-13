@@ -61,12 +61,25 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\RoomData.cs" />
-    <Compile Include="Assets\Scripts\QuestData.cs" />
-    <Compile Include="Assets\Scripts\DialogueData.cs" />
-    <Compile Include="Assets\Scripts\EndingData.cs" />
-    <Compile Include="Assets\Scripts\ItemData.cs" />
-    <Compile Include="Assets\Scripts\NPCData.cs" />
+    <Compile Include="Assets\Scripts\Scriptable objects\DialogueData.cs" />
+    <Compile Include="Assets\Scripts\Scriptable objects\EndingData.cs" />
+    <Compile Include="Assets\Scripts\Game Manager\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Game Manager\GameData.cs" />
+    <Compile Include="Assets\Scripts\EntranceLobby\EntranceLobbyController.cs" />
+    <Compile Include="Assets\Scripts\Game Manager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\VIP Room\VIPRoomController.cs" />
+    <Compile Include="Assets\Scripts\Scriptable objects\QuestData.cs" />
+    <Compile Include="Assets\Scripts\Game Manager\SaveManager.cs" />
+    <Compile Include="Assets\Scripts\Endings Controller\EndingSceneController.cs" />
+    <Compile Include="Assets\Scripts\Back Office\BackofficeController.cs" />
+    <Compile Include="Assets\Scripts\Scriptable objects\RoomData.cs" />
+    <Compile Include="Assets\Scripts\Game Manager\SaveButtonController.cs" />
+    <Compile Include="Assets\Scripts\HighRollerTableController\HighRollerTableController.cs" />
+    <Compile Include="Assets\Scripts\Game Manager\TypewriterEffect.cs" />
+    <Compile Include="Assets\Scripts\Scriptable objects\NPCData.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\MainMenuController.cs" />
+    <Compile Include="Assets\Scripts\Main Casino Floor\MainCasinoFloorController.cs" />
+    <Compile Include="Assets\Scripts\Scriptable objects\ItemData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -13,10 +13,52 @@ MonoBehaviour:
   m_Name: Dialogue_HighRollerDealer
   m_EditorClassIdentifier: 
   dialogueName: High Roller Dealer
-  fullDialogueTree: "Start:\n\"This is it. One final game. Everything you have...
-    or nothing at all.\"\n\nPlayer Choice 1:\n1. \"Bet everything.\"\n   - Set tookRisk
-    = true\n   - Go to Ending Check\n\n2. \"Walk away.\"\n   - Go to Ending Check\n\nEnding
-    Check:\nCondition: knowsSecret == true AND helpedGambler == true\nEnding: Escape
-    the System\n\nCondition: moneyAmount <= 0\nEnding: Lost Everything\n\nCondition:
-    moneyAmount >= 200 AND tookRisk == true\nEnding: Big Winner\n\nFallback Condition:\nEnding:
-    Walk Away Empty\nOptional if you want a fourth ending."
+  fullDialogueTree: 'Start:
+
+    High Roller Dealer: This is it. One final game.
+    Everything you have... or nothing at all.
+
+    
+
+    House Wheel:
+
+    High
+    Roller Dealer: Spin the House Wheel. It can make you rich, or it can take everything.
+
+    
+
+    Choice
+    1:
+
+    Spin the House Wheel
+
+    
+
+    Choice 2:
+
+    End Game
+
+    
+
+    Choice
+    3:
+
+    Return to Casino Floor
+
+    
+
+    Ending Check:
+
+    Escape the System
+    requires moneyAmount >= 500, knowsSecret == true, helpedGambler == true, hasGoldenCard
+    == true, and hasHouseLedger == true.
+
+    
+
+    Big Winner requires moneyAmount
+    >= 200 and tookRisk == true.
+
+    
+
+    Lost Everything triggers if the player
+    does not meet the other ending requirements or moneyAmount <= 0.'

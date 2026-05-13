@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: High Roller Dealer
   role: Final dealer
-  purpose: Runs the final decision at the High Roller Table and sends the player
-    toward one of the endings.
+  purpose: Runs the final House Wheel gamble and sends the player toward one of the
+    endings.
   relatedQuest: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 0e9407593e3071d49836f7e2086ae678, type: 2}

@@ -5,9 +5,36 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f3bbbffaa6c956a46acfbf9c1e52d60a
+  - enabled: 1
+    path: Assets/Scenes/MainCasinoFloor.unity
+    guid: 837bf0afdc4a32645ac0d8f5fe7d61b6
+  - enabled: 1
+    path: Assets/Scenes/BackOffice.unity
+    guid: 93b21d1ef73319244a6278a7c97fd1c2
+  - enabled: 1
+    path: Assets/Scenes/Ending_BigWinner.unity
+    guid: 6060d240afaffb245bc4dbba5a2c247f
+  - enabled: 1
+    path: Assets/Scenes/Ending_EscapeSystem.unity
+    guid: 720c778eb6f7cfa4db7e93c85022400f
+  - enabled: 1
+    path: Assets/Scenes/Ending_LostEverything.unity
+    guid: 98cf793fa88c4f04e81940e43f6f2152
+  - enabled: 1
+    path: Assets/Scenes/EntranceLobby.unity
+    guid: c5579fba33cb8ba4697aea1b38897024
+  - enabled: 1
+    path: Assets/Scenes/HighRollerTable.unity
+    guid: 36b5fba6ff7454f46803b714cc26b011
+  - enabled: 1
+    path: Assets/Scenes/VIPRoom.unity
+    guid: 87d0f2b35bc393d41a92094520961139
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
