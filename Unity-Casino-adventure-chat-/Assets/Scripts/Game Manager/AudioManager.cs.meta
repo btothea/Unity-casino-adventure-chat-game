@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ebbbb6cc4b7148b468e8072759d0792e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicSource: {instanceID: 0}
+  - sfxSource: {instanceID: 0}
+  - buttonClick: {fileID: 8300000, guid: 771c62922aec23344aa338ed86a2bff2, type: 3}
+  - itemPickup: {instanceID: 0}
+  - winSound: {instanceID: 0}
+  - loseSound: {instanceID: 0}
+  - lobbyMusic: {fileID: 8300000, guid: 2d096f4d6e730444ba1ac26c18c2e0d3, type: 3}
+  - casinoMusic: {fileID: 8300000, guid: b3f46395528c16d4ea7ebb31d01b0355, type: 3}
+  - backOfficeMusic: {fileID: 8300000, guid: 5edc295c13aecf14a9a16c66c6c72249, type: 3}
+  - vipMusic: {fileID: 8300000, guid: 9df91016810aba74091fa4f5ba152e83, type: 3}
+  - highRollerMusic: {fileID: 8300000, guid: 675799ec4fd0f6e41988510f9d3f4224, type: 3}
+  - endingMusic: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
